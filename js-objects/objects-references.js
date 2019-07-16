@@ -36,6 +36,9 @@ addIncome(myAccount, 2000)
 addExpense(myAccount, 2.50)
 addExpense(myAccount, 160)
 console.log(getAccountSummary(myAccount))
+resetAccount(myAccount)
+console.log(getAccountSummary(myAccount))
+
 
 // Account for Andrew has $900, $1000 in income, $100 in expenses
 
